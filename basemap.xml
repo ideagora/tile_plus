@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<basemap
+  version="1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.geodose.com">
+<map_list>
+<map name="Google Map">
+ <url><![CDATA[https://mt1.google.com/vt/lyrs%3Dm%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>Google Map</description>
+</map>
+<map name="Google Satellite">
+ <url><![CDATA[https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>Google Satellite</description>
+</map>
+<map name="Open Street Map">
+ <url><![CDATA[http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>OSM Standard</description>
+</map>
+<map name="Open Street Map Monochrome">
+ <url><![CDATA[http://tiles.wmflabs.org/bw-mapnik/%7Bz%7D/%7Bx%7D/%7By%7D.png]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>Open Street Map Monochrome</description>
+</map>
+<map name="Open Street Map Hot">
+ <url><![CDATA[http://tile.openstreetmap.fr/hot/%7Bz%7D/%7Bx%7D/%7By%7D.png]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>Open Street Map Hot</description>
+</map>
+<map name="Rainfall Prediction">
+ <url><![CDATA[http://realearth.ssec.wisc.edu/tiles/NESDIS-GHE-HourlyRainfall/{z}/{x}/{y}.png]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>The HE algorithm uses infrared (IR) brightness temperatures to identify regions...</description>
+</map>
+<map name="Google Terrain">
+ <url><![CDATA[https://mt1.google.com/vt/lyrs%3Dt%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>Google Terrain</description>
+</map>
+<map name="Google Terrain Hybrid">
+ <url><![CDATA[https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>Google Terrain Hybrid</description>
+</map>
+<map name="Google Satellite Hybrid">
+ <url><![CDATA[https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>Google Satellite Hybrid</description>
+</map>
+<map name="ESRI World Imagery">
+ <url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>ESRI World Imagery</description>
+</map>
+<map name="ESRI Topo World">
+ <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>ESRI Topo World</description>
+</map>
+<map name="ESRI Terrain">
+ <url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>ESRI Terrain</description>
+</map>
+<map name="ESRI World Ocean">
+ <url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>ESRI World Ocean</description>
+</map>
+<map name="ESRI World Dark Gray">
+ <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>ESRI World Dark Gray</description>
+</map>
+<map name="ESRI World Light Gray">
+ <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>ESRI World Light Gray</description>
+</map>
+<map name="Bing Virtual Earth">
+ <url><![CDATA[http://ecn.t3.tiles.virtualearth.net/tiles/a%7Bq%7D.jpeg?g%3D1]]></url>
+ <zoom min="1" max="19"/>
+ <type>xyz</type>
+ <description>Bing Virtual Earth</description>
+</map>
+<map name="Cartodb Dark">
+ <url><![CDATA[http://basemaps.cartocdn.com/dark_all/%7Bz%7D/%7Bx%7D/%7By%7D.png]]></url>
+ <zoom min="0" max="20"/>
+ <type>xyz</type>
+ <description>Cartodb Dark</description>
+</map>
+<map name="Cartodb Light">
+ <url><![CDATA[http://basemaps.cartocdn.com/light_all/%7Bz%7D/%7Bx%7D/%7By%7D.png]]></url>
+ <zoom min="0" max="20"/>
+ <type>xyz</type>
+ <description>Cartodb Light</description>
+</map>
+<map name="Stamen Terrain">
+ <url><![CDATA[http://tile.stamen.com/terrain/%7Bz%7D/%7Bx%7D/%7By%7D.png]]></url>
+ <zoom min="0" max="20"/>
+ <type>xyz</type>
+ <description>Stamen Terrain</description>
+</map>
+<map name="Stamen Toner">
+ <url><![CDATA[http://tile.stamen.com/toner/%7Bz%7D/%7Bx%7D/%7By%7D.png]]></url>
+ <zoom min="0" max="20"/>
+ <type>xyz</type>
+ <description>Stamen Toner</description>
+ </map>
+ <map name="Stamen Toner Lite">
+ <url><![CDATA[http://tile.stamen.com/toner-lite/%7Bz%7D/%7Bx%7D/%7By%7D.png]]></url>
+ <zoom min="0" max="20"/>
+ <type>xyz</type>
+ <description>Stamen Toner Lite</description>
+</map>
+<map name="Stamen Water Color">
+ <url><![CDATA[http://tile.stamen.com/watercolor/%7Bz%7D/%7Bx%7D/%7By%7D.jpg]]></url>
+ <zoom min="0" max="18"/>
+ <type>xyz</type>
+ <description>Stamen Water Color</description>
+</map>
+<map name="Global Infrared">
+ <url><![CDATA[http://realearth.ssec.wisc.edu/tiles/globalir/{z}/{x}/{y}.png]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>Global composite of imagery from multiple satellites. It is completed every hour (at about 35-minutes after the hour UTC) by...</description>
+</map>
+<map name="Global Night Light">
+ <url><![CDATA[http://realearth.ssec.wisc.edu/tiles/NightLightsColored/{z}/{x}/{y}.png]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>Global Night Lights (enhanced)</description>
+</map>
+<map name="Global Water Vapor Gradient">
+ <url><![CDATA[http://realearth.ssec.wisc.edu/tiles/globalwv-grad/{z}/{x}/{y}.png]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>Enhanced view of the global Water Vapor composite product. It is completed every hour (at about 35-minutes after the hour UTC) by the SSEC Data Center with...</description>
+</map>
+<map name="Sea Surface Temperature">
+ <url><![CDATA[http://realearth.ssec.wisc.edu/tiles/NESDIS-SST/{z}/{x}/{y}.png]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>NESDIS: Hi-Res Sea Surface Temperature</description>
+</map>
+<map name="NASA Night Black Marble">
+ <url><![CDATA[http://realearth.ssec.wisc.edu/tiles/VIIRS-MASK-54000x27000/{z}/{x}/{y}.png]]></url>
+ <zoom min="1" max="19"/>
+ <type>xyz</type>
+ <description>VIIRS Night Global Black Marble by NASA</description>
+</map>
+<map name="Global Visible">
+ <url><![CDATA[http://realearth.ssec.wisc.edu/tiles/globalvis/{z}/{x}/{y}.png]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>This product is a global composite of imagery from multiple satellites. It is completed every hour (at about 35-minutes after the hour UTC) by the SSEC Data Center with the best available imagery. While...</description>
+</map>
+<map name="Global Infrared Enhanced">
+ <url><![CDATA[http://realearth.ssec.wisc.edu/tiles/globalir-avn/{z}/{x}/{y}.png]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>This product is an enhanced view of the global infrared composite product. It is completed every hour (at about 35-minutes after the hour UTC) by the SSEC Data Center with the...</description>
+</map>
+<map name="Global Infrared Rain Rate">
+ <url><![CDATA[http://realearth.ssec.wisc.edu/tiles/globalir-rr/{z}/{x}/{y}.png]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>This product is based on a statistical relationship between cloud top temperature and observed rain rate. It is derived every hour (at about 35-minutes after the hour UTC) using the global IR composite produced by the...</description>
+</map>
+<map name="Fire Location">
+ <url><![CDATA[http://realearth.ssec.wisc.edu/tiles/VIIRS-Fire/{z}/{x}/{y}.png]]></url>
+ <zoom min="0" max="19"/>
+ <type>xyz</type>
+ <description>VIIRS Satellite Detected Fire Locations</description>
+</map>
+</map_list>
+</basemap>
